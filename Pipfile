@@ -10,6 +10,7 @@ tensorflow = "*"
 tensorflow-hub = "*"
 numpy = "*"
 pillow = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 
