@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-(3mgrw$pih0_-v0v7g#4b(8c1%9j=k$pf@450zcj@rky#^d=3a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [".vercel.app", "localhost","127.0.0.1:8000", ".now.sh"]
 
 
 # Application definition
@@ -134,3 +134,23 @@ CORS_ORIGIN_ALLOW_ALL = True
 STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
+
+# [[source]]
+# url = "https://pypi.org/simple"
+# verify_ssl = true
+# name = "pypi"
+# 
+# [packages]
+# django = "*"
+# djangorestframework = "*"
+# tensorflow = "*"
+# tensorflow-hub = "*"
+# numpy = "*"
+# pillow = "*"
+# django-cors-headers = "*"
+# 
+# [dev-packages]
+# 
+# [requires]
+# python_version = "3.11"
+# 
