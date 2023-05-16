@@ -128,10 +128,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ORIGIN_ALLOW_ALL = True
 
-STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
-
 # [[source]]
 # url = "https://pypi.org/simple"
 # verify_ssl = true
