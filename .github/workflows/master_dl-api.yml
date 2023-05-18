@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'dl-api'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_51DB402D28C448FA936F7B5F1623EE51 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B720000FA125492BA3C65868E7C6B53E }}
